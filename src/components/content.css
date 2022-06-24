@@ -1,8 +1,8 @@
 
 H1{ text-align: center; font-family:'Arial'; color:green;text-shadow:1px 1px 10px #FFAE00;}
-H2{font-family:'Arial'; color:#006400; }
+
 H3 {margin-left:20px;font-family:'Arial';} 
-BODY{text-align:justify; margin-left:40px;margin-right:40px; background: linear-gradient(#FFFACD,#E0FFFF,#E6E6FA);}
+BODY{text-align:justify; ;margin-right:40px; background: linear-gradient(#FFFACD,#E0FFFF,#E6E6FA);}
 .hint{color:purple;margin-left:20%;}
 .intro{text-align: center;color:black;}
 P{font-family:'Arial'; color:black;}
@@ -62,6 +62,10 @@ P{font-family:'Arial'; color:black;}
   padding: .7em 1.5em; /* îòñòóï îò òåêñòà */
   outline: none; /* óáèðàòü êîíòóð â Mozilla */
 }   
+
+.z{
+  font-family:'Arial'; color:#006400; 
+}
   
         
         
