@@ -1,5 +1,6 @@
 import './content.css'
 import Input_comment from './input_comment';
+import Up_button from './up_button';
 
 function Content() {
     return (
@@ -100,11 +101,11 @@ function Content() {
                         - Изменение глаголов по лицам и числам называется_____________________
                     </p>
                     {Input_comment()}
+                    {Up_button()}
                     </div>
-                    
-
                    
             </div>
+            
         </div>
         
     )
