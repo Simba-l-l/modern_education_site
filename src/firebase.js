@@ -4,15 +4,15 @@ import { uid } from 'uid'
 import { set, ref, push, onValue } from 'firebase/database'
 
 
-const firebaseConfig = {
-    apiKey: "AIzaSyCC6awNj6ArxyaXruq-wF3ohSSd6ONkwPE",
-    authDomain: "coments-651b3.firebaseapp.com",
-    projectId: "coments-651b3",
-    storageBucket: "coments-651b3.appspot.com",
-    messagingSenderId: "563137735345",
-    appId: "1:563137735345:web:a8c53373143387f2b69090",
-    measurementId: "G-KEZHCWB07D"
-};
+const firebaseConfig = { 
+    apiKey: "AIzaSyCXG2zxPBN-YHhjyj4sd7hCVJ8F0wzidDQ", 
+    authDomain: "educate2-7ea32.firebaseapp.com", 
+    projectId: "educate2-7ea32", 
+    storageBucket: "educate2-7ea32.appspot.com", 
+    messagingSenderId: "366243856641", 
+    appId: "1:366243856641:web:1e5ed7b1ac5825f0f25b00", 
+    measurementId: "G-VY9JSVL8Z9" 
+  }; 
 
 const writeComent = (coment) => {
     push(ref(db, "/coments"), {
