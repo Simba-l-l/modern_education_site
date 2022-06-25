@@ -6,4 +6,4 @@
  
  npm i 
 
- mpm start
+ npm start
