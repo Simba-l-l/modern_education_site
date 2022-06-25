@@ -2,4 +2,8 @@
     width: 105%;
 }
 
-.navbar-brand{margin-left:200px;}
+.navbar-brand{margin-left:200px;
+    font-family:'Arial'; color:green;
+    background: linear-gradient(#FFFACD,#E0FFFF,#E6E6FA);
+    text-shadow:1px 1px 10px #FFAE00;
+}
